@@ -1,14 +1,14 @@
 {
-  "name": "@wintron/scrabblescore",
-  "version": "1.0.9",
-  "description": "Find the Scrabble score for a given word",
+  "name": "@swinton/scrabblescoredeluxe",
+  "version": "0.0.0",
+  "description": "Find the Deluxe Scrabble score for a given word",
   "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
   "main": "index.js",
   "license": "ISC",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wintron/scrabblescore.git"
+    "url": "git+https://github.com/swinton/scrabblescoredeluxe.git"
   },
   "scripts": {
     "start": "node ./index.js",
@@ -16,7 +16,9 @@
     "test": "jest && eslint index.js 'test/**.js'",
     "lint": "eslint index.js 'test/**.js' --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@wintron/scrabblescore": "^1.0.9"
+  },
   "devDependencies": {
     "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
