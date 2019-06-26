@@ -1,6 +1,6 @@
 {
   "name": "@swinton/scrabblescoredeluxe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find the Deluxe Scrabble score for a given word",
   "author": "Steve Winton <stevewinton@gmail.com> (https://github.com/swinton)",
   "main": "index.js",

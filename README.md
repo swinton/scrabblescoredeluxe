@@ -1,14 +1,14 @@
 ## Installation
 
 ```
-npm i -s @wintron/scrabblescore
+npm i -s @swinton/scrabblescoredeluxe
 ```
 
 ## Usage
 
 ```javascript
-const scrabble = require('@wintron/scrabblescore');
+const scrabble = require('@swinton/scrabblescoredeluxe');
 
 const score = await scrabble.score('oxyphenbutazone');
-console.log(score);  // returns 41
+console.log(score);  // returns 82
 ```
